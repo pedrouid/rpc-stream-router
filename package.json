@@ -1,0 +1,45 @@
+{
+  "name": "rpc-stream-router",
+  "version": "1.0.0-beta.0",
+  "description": "RPC Stream Router",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "author": "Pedro Gomes <github.com/pedrouid>",
+  "keywords": [
+    "ethereum",
+    "parser",
+    "uri",
+    "standard"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "module": "dist/rpc-stream-router.esm.js",
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "husky": "^4.2.1",
+    "tsdx": "^0.12.3",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.5"
+  }
+}
