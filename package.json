@@ -1,6 +1,6 @@
 {
   "name": "rpc-stream-router",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "description": "RPC Stream Router",
   "license": "MIT",
   "main": "dist/index.js",
