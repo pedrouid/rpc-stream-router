@@ -23,6 +23,13 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrouid/rpc-stream-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrouid/rpc-stream-router/issues"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
